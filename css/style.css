@@ -81,3 +81,54 @@ main {
 
     background-color: rgba(103,115,123, 0.6);
 }
+
+/* Footer */
+
+.commands {
+    height: 80px;
+    background-color: #222222;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.commands-left {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    /* padding-left: 10px; */
+}
+
+.microphone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.commands-left i {
+    font-size: 1.5rem;
+}
+
+.commands-left span {
+    font-size: 12px;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-chevron-up {
+    font-size: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
