@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* UTILITIES */
+
+.full-height {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #000;
+}
+
+body {
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header */
+
+header {
+    height: 80px;
+    background-color: #000;
+    text-align: right;
+    padding-top: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header i {
+    background-color: #4A4A4A;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Main */
+
+main {
+    flex-grow: 1;
+}
+
+.framing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.framing-person {
+    height: 200px;
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+.framing-person img {
+    height: 100%;
+    
+}
