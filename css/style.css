@@ -129,6 +129,7 @@ footer a {
 }
 
 
+/* Navbar */
 
 .navbar {
     width: 40%;
@@ -140,8 +141,21 @@ footer a {
 
 /* commands right */
 
-.command-right {
+.commands-right {
     width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
 }
 
-background-color: #4A4A4A;
+.end-call {
+    width: 50%;
+    height: 100%;
+    background-color: #4A4A4A;
+    color: red;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
