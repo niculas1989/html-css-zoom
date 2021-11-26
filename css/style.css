@@ -58,8 +58,11 @@ header i {
 /* Main */
 
 main {
+    padding-top: 60px;
     flex-grow: 1;
     background-color: #000;
+
+    flex-wrap: wrap;
 
     height: calc(100vh - 60px);
     overflow-y: scroll;
@@ -75,6 +78,7 @@ main img:hover {
     flex-wrap: wrap;
     justify-content: space-between;
 
+    min-width: 1000px;
     flex-wrap: wrap;
     padding-top: 10px;
     
@@ -193,4 +197,6 @@ footer {
     bottom: 0;
     z-index: 1;
     width: 100%;
+    
+    flex-wrap: wrap;
 }
