@@ -17,11 +17,11 @@
 
 /* UTILITIES */
 
-.full-height {
+/* .full-height {
     display: flex;
     flex-direction: column;
     background-color: #000;
-}
+} */
 
 body {
     color: white;
@@ -37,6 +37,11 @@ header {
     padding-top: 10px;
     font-size: 12px;
 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
 }
 
 header a {
@@ -55,6 +60,13 @@ header i {
 main {
     flex-grow: 1;
     background-color: #000;
+
+    height: calc(100vh - 60px);
+    overflow-y: scroll;
+}
+
+main img:hover {
+    outline: 1px solid lightyellow;
 }
 
 .framing {
@@ -65,7 +77,7 @@ main {
 
     flex-wrap: wrap;
     padding-top: 10px;
-    padding-bottom: 30px;
+    
 }
 
 .framing-person {
@@ -173,4 +185,12 @@ footer a {
     justify-content: center;
     align-items: center;
 
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
 }
