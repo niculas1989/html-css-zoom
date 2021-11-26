@@ -66,9 +66,18 @@ main {
     height: 200px;
     width: 250px;
     margin-bottom: 5px;
+
+    position: relative;
 }
 
 .framing-person img {
     height: 100%;
-    
+}
+
+.framing-person span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    background-color: rgba(103,115,123, 0.6);
 }
